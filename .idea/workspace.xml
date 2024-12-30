@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff432596-6292-4d59-b20b-30ad4773ca35" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/data/SQLHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/data/SQLHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/DashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/VerificationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/VerificationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/test/BankLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/test/BankLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
