@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff432596-6292-4d59-b20b-30ad4773ca35" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/VerificationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/page/VerificationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/data/DataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/data/DataHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/test/BankLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/banklogin/test/BankLoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.BankLoginTest.executor": "Debug",
+    "Gradle.BankLoginTest.executor": "Run",
     "Gradle.BankLoginTest.shouldGetErrorNotificationIfLoginWithExistUserAndRandomVerificationCode.executor": "Run",
     "Gradle.BankLoginTest.shouldGetErrorNotificationIfLoginWithRandomUserWithoutAddingToBase.executor": "Run",
     "Gradle.BankLoginTest.shouldSuccessfulLogin.executor": "Run",
@@ -195,8 +191,8 @@
       <list>
         <item itemvalue="Gradle.BankLoginTest" />
         <item itemvalue="Gradle.BankLoginTest.shouldSuccessfulLogin" />
-        <item itemvalue="Gradle.BankLoginTest.shouldGetErrorNotificationIfLoginWithRandomUserWithoutAddingToBase" />
         <item itemvalue="Gradle.BankLoginTest.shouldGetErrorNotificationIfLoginWithExistUserAndRandomVerificationCode" />
+        <item itemvalue="Gradle.BankLoginTest.shouldGetErrorNotificationIfLoginWithRandomUserWithoutAddingToBase" />
         <item itemvalue="Gradle.SQL [test]" />
       </list>
     </recent_temporary>
@@ -225,21 +221,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/banklogin/test/BankLoginTest.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ru/netology/banklogin/test/BankLoginTest.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -19,10 +19,13 @@ public class BankLoginTest {
         cleanDataBase();
     }
 
+    /*
     @AfterEach
     void tearDown() {
         cleanAuthCode();
     }
+    */
+
 
     @BeforeEach
     void setUp() {
@@ -52,7 +55,7 @@ public class BankLoginTest {
         var verificationPage = loginPage.validLogin(authInfo);
         var verificationCode = DataHelper.generateRandomVerificationCode();
         verificationPage.verify(verificationCode.getCode());
-        verificationPage.verifyErrorNotification ("Ошибка! \nНеверный запрос");
+        verificationPage.verifyErrorNotification ("Ошибка! \nНеверно указан код! Попробуйте ещё раз.");
     }
 
 }
